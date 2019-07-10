@@ -1,24 +1,61 @@
 {
-  "posts": [
+  "places": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Italy",
+      "visa_required": false
     },
     {
       "id": 2,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Switzerland",
+      "visa_required": true
+    },
+    {
+      "id": 3,
+      "name": "France",
+      "visa_required": false
     }
   ],
-  "comments": [
+  "interests": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "placeId": 1,
+      "name": "Local Market",
+      "description": "Local market where you can purchase local products and try the local food",
+      "cost": 0,
+      "review": "Does this show up?"
+    },
+    {
+      "name": "Tower of Pisa",
+      "description": "It leans a lot",
+      "cost": "10",
+      "country": "1",
+      "review": "",
+      "id": 4
+    },
+    {
+      "name": "Swiss Mtns",
+      "description": "The mountains",
+      "cost": "15",
+      "country": "2",
+      "review": "",
+      "id": 7
+    },
+    {
+      "name": "Eiffel Tower",
+      "description": "It's so High",
+      "cost": "15",
+      "country": "3",
+      "review": "",
+      "id": 8
+    },
+    {
+      "name": "Naples Bay",
+      "description": "Going on a boat",
+      "cost": "5",
+      "country": "1",
+      "review": "",
+      "id": 9
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
